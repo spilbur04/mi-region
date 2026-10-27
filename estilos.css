@@ -1,0 +1,178 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9c6c6;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #acded5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: #000000;
+    
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: black
+    font-weight: bold;
+}
+p {
+
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black   
+}
+
+nav {
+    background-color: #24564b;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #24564b;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #173b35;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.tarjeta {
+    background-color: #ffffff;
+    border: 10px solid #dddddd;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 30px;
+    width: 900px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+.tarjeta img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+.contenedor-cultura {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cultura {
+    background-color: #ffffff;
+    border: 10px solid #dddddd;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 30px;
+    width: 900px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cultura:hover {
+    transform: translateY(5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+.cultura img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+aside {
+    background-color: #e6d5b8;
+    padding: 25px;
+    margin: 20px;
+    border-left: 6px solid #24564b;
+    border-radius: 8px;
+}
+
+aside h2 {
+    color: #173b35;
+}
+
+footer {
+    background-color: #babdbc;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #1c0ded;
+    text-decoration: none;
+}
+
